@@ -13,8 +13,6 @@ public class LogicalOperators {
             System.out.println("it is cold outside");
         }
 
-<<<<<<< HEAD
-
 
         Scanner userInput = new Scanner(System.in);
         String response = userInput.next();
@@ -22,12 +20,6 @@ public class LogicalOperators {
 //        Using OR ||
         System.out.println("You are playing a game! Press q or Q to exit");
         response = userInput.next();
-=======
-//        Using OR ||
-        Scanner userInput = new Scanner(System.in);
-        System.out.println("You are playing a game! Press q or Q to exit");
-        String response = userInput.next();
->>>>>>> origin/main
         if (response.equals("q") || response.equals("Q")){
             System.out.println("You quit the game");
         } else {
@@ -35,14 +27,8 @@ public class LogicalOperators {
         }
 
 //        Using NOT !
-<<<<<<< HEAD
         System.out.println("You are playing a game! Press q or Q to exit");
         response = userInput.next();
-=======
-        Scanner userInput = new Scanner(System.in);
-        System.out.println("You are playing a game! Press q or Q to exit");
-        String response = userInput.next();
->>>>>>> origin/main
         if (!response.equals("q") && !response.equals("Q")){
             System.out.println("You are still playing the game!");
         } else {
